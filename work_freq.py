@@ -19,3 +19,6 @@ for x in range(n):
 
     dict[x]=count
     i+=1
+
+sdict = sorted(dict.items(), key = lambda item: item[1], reverse = True)
+
