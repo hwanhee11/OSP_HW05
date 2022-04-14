@@ -7,3 +7,15 @@ n = int(sys.argv[2])
 
 lines = f.readlines()
 lines = [line.strip() for line in lines]
+
+dict={}
+
+i=0
+for x in range(n):
+    string = lines[i]
+    word = string.split()
+    x=word[0]
+    count=int(word[1])
+
+    dict[x]=count
+    i+=1
