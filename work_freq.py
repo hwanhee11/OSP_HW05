@@ -24,4 +24,4 @@ sdict = sorted(dict.items(), key = lambda item: item[1], reverse = True)
 
 for j in range(n):
     sdict[j],count = sdict[j]
-    print(sdict[j], count)
+    print(sdict[j].ljust(5), "%5d" % count)
